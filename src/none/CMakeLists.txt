@@ -1,4 +1,4 @@
 rt_add_sources(
-        Texture_None.cpp
-        Texture_None.hpp
+        Device_None.cpp
+        Device_None.hpp
 )

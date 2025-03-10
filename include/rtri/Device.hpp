@@ -14,12 +14,16 @@
 
 namespace rtri
 {
-	class Device
-	{
-	public:
-		Device();
-		~Device();
-	};
+	template <Backend>
+	class Device;
+
+	extern template class Device<Backend::eNone>;
+
+#ifdef RTRI_ENABLE_VULKAN
+	extern template class Device<Backend::eVulkan>;
+#endif
 } // namespace rtri
+
+
 
 #endif // RTRI_DEVICE_HPP
