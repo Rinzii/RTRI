@@ -1,5 +1,5 @@
 /*
-* Copyright (c) Ian Pike
+ * Copyright (c) Ian Pike
  *
  * RTRI is provided under the Apache-2.0 License WITH LLVM-exception.
  * See LICENSE for more information.
@@ -12,14 +12,14 @@
 
 #include "RTRIConfig.hpp"
 
-namespace RTRI_NAMESPACE
+namespace rtri
 {
-    class Pipeline
-    {
-    public:
-        Pipeline();
-        ~Pipeline();
-    };
-} // namespace RTRI_NAMESPACE
+	class Pipeline
+	{
+	public:
+		Pipeline();
+		~Pipeline();
+	};
+} // namespace rtri
 
 #endif // RTRI_PIPELINE_HPP

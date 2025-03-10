@@ -12,14 +12,14 @@
 
 #include "RTRIConfig.hpp"
 
-namespace RTRI_NAMESPACE
+namespace rtri
 {
-    class AccelerationStructure
-    {
-    public:
-        AccelerationStructure();
-        ~AccelerationStructure();
-    };
-} // namespace RTRI_NAMESPACE
+	class AccelerationStructure
+	{
+	public:
+		AccelerationStructure();
+		~AccelerationStructure();
+	};
+} // namespace rtri
 
 #endif // RTRI_ACCELERATION_STRUCTURE_HPP

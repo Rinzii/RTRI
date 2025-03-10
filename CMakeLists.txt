@@ -12,5 +12,6 @@ add_library(RTRI)
 
 target_include_directories(RTRI SYSTEM PUBLIC include)
 
+add_subdirectory(include/rtri)
 add_subdirectory(src)
 

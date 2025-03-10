@@ -1,0 +1,17 @@
+rt_add_headers(
+        AccelerationStructure.hpp
+        ApiFactory.hpp
+        Buffer.hpp
+        CommandAllocator.hpp
+        CommandBuffer.hpp
+        Descriptor.hpp
+        DescriptorSet.hpp
+        Device.hpp
+        Fence.hpp
+        Memory.hpp
+        Pipeline.hpp
+        PipelineLayout.hpp
+        RTRI.hpp
+        RTRIConfig.hpp
+        Texture.hpp
+)
